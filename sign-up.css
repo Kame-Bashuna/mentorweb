@@ -1,0 +1,189 @@
+#navbar{
+    display:flex;
+    background-color: rgb(148, 124, 116);
+    font-size: xx-large;
+    
+}
+.logo{
+width: 100px;
+margin-top: 20%;
+   
+    
+    
+     
+}
+#text{
+    text-align: center;
+    margin-left: 40%;
+    
+    
+}
+
+#box{
+   margin-left:5%;
+    width: 10%;
+    text-align: center;
+    padding: 25px 10px;
+    box-shadow: rgb(148, 124, 116);
+    
+}
+
+#button{
+    width: 14%;
+    font-size: large;
+    background-color: rgb(148, 124, 116);
+    margin-left: 7%;
+    padding: 25px 10px;
+    
+}
+#word{
+    margin-left: 50%;
+    font-size: xx-large;
+}
+#Sign-Up{
+    font-size: xx-large;
+    text-align: center;
+    background-color: darkkhaki;
+    height: 1200px;
+    
+}
+#boxxy{
+    margin-left: 5%;
+    padding: 25px 10px;
+}
+#boxxxy{
+    margin-left: 6%;
+    padding: 25px 10px;
+    width: 14%;
+}
+#boxxya{
+    margin-left: 12%;
+    padding: 25px 10px;
+}
+#box{
+    width: 12%;
+}
+#box1{
+    margin-left:1%;
+    width: 12%;
+    text-align: center;
+    padding: 25px 10px;
+    box-shadow: rgb(148, 124, 116);
+}
+#box2{
+    margin-left:1%;
+    width: 12%;
+    text-align: center;
+    padding: 25px 10px;
+    box-shadow: rgb(148, 124, 116);
+}
+#box3{
+    margin-left:3%;
+    width: 12%;
+    text-align: center;
+    padding: 25px 10px;
+    
+}
+#boxxy1{
+    width: 12%;
+    margin-left: 3%;
+    padding: 25px 10px;
+    text-align: center;
+}
+@media screen and (max-width:650px){
+    #navbar{
+        flex-wrap: wrap;
+        background-color: rgb(148, 124, 116);
+        font-size: small;
+        
+    }
+    .logo{
+    width: 50px;
+    height: 70px;
+    
+       
+        
+        
+         
+    }
+    #text{
+        text-align: center;
+        margin-left: 40%;
+        
+        
+    }
+    
+    #box{
+       margin-left:5%;
+        width: 10%;
+        text-align: center;
+        padding: 25px 10px;
+        box-shadow: rgb(148, 124, 116);
+        
+    }
+    
+    #button{
+        width: 25%;
+        font-size: large;
+        background-color: rgb(148, 124, 116);
+        margin-left: 7%;
+        padding: 20px 10px;
+        
+    }
+    #word{
+        margin-left: 50%;
+        font-size: small;
+    }
+    #Sign-Up{
+        font-size: small;
+        text-align: center;
+        background-color: darkkhaki;
+        height: 1200px;
+        
+    }
+    #boxxy{
+        margin-left: 5%;
+        padding: 25px 10px;
+    }
+    #boxxxy{
+        margin-left: 6%;
+        padding: 25px 10px;
+        width: 14%;
+    }
+    #boxxya{
+        margin-left: 12%;
+        padding: 25px 10px;
+    }
+    #box{
+        width: 12%;
+    }
+    #box1{
+        margin-left:1%;
+        width: 26%;
+        text-align: center;
+        padding: 20px 10px;
+        box-shadow: rgb(148, 124, 116);
+        font-size: small;
+    }
+    #box2{
+        margin-left:1%;
+        width: 27%;
+        text-align: center;
+        padding: 20px 10px;
+        box-shadow: rgb(148, 124, 116);
+    }
+    #box3{
+        margin-left:3%;
+        width: 20%;
+        text-align: center;
+        padding: 20px 10px;
+        
+    }
+    #boxxy1{
+        width: 20%;
+        margin-left: 3%;
+        padding: 20px 10px;
+        text-align: center;
+    }
+}
+

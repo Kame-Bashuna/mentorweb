@@ -1,0 +1,120 @@
+#navbar{
+    display:flex;
+    background-color: rgb(148, 124, 116);
+    
+}
+#logo{
+    width: 20%;
+margin-top: 10%;
+   
+ 
+     
+}
+#text{
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 1%;
+    font-size: xx-large;
+    
+}
+
+#box{
+    border-color: rgb(148, 124, 116);
+    width: 10%;
+    text-align: center;
+    padding: 15px 10px;
+    margin-left: 1%;
+    
+}
+
+#button{
+    width: 11%;
+    font-size: large;
+    background-color: rgb(148, 124, 116);
+    margin-left: 8%;
+    padding: 10px 10px;
+
+    
+    
+}
+#word{
+    background-color: darkkhaki;
+    font-size: xx-large;
+    text-align: center;
+    height: 1200px;
+    
+}
+a{
+text-decoration: none;
+}
+#box1{
+    width: 10%;
+    text-align: center;
+    padding: 15px 10px;
+    margin-left: 2%;
+}
+
+@media screen and (max-width:650px){
+    #navbar{
+        flex-wrap: wrap;
+        background-color: rgb(148, 124, 116);
+        
+    }
+    #logo{
+        width: 10%;
+    margin-top: 10%;
+       
+     
+         
+    }
+    #text{
+        text-align: center;
+        margin-left: 30%;
+        margin-top: 1%;
+        font-size: small;
+        
+    }
+    
+    #box{
+        border-color: rgb(148, 124, 116);
+        width: 30%;
+        text-align: center;
+        padding: 10px 10px;
+        margin-left: 1%;
+        
+        
+    }
+    
+    #button{
+        width: 36%;
+        font-size: small;
+        background-color: rgb(148, 124, 116);
+        margin-left: 18%;
+        padding: 10px 10px;
+    
+        
+        
+    }
+    #word{
+        background-color: darkkhaki;
+        font-size: small;
+        text-align: center;
+        height: 1200px;
+        
+       
+    
+    
+    
+        
+    }
+    a{
+    text-decoration: none;
+    }
+    #box1{
+        width: 30%;
+        text-align: center;
+        padding: 10px 10px;
+        margin-left: 2%;
+    }
+}
+

@@ -1,0 +1,131 @@
+#navbar{
+    background-color: rgb(148, 124, 116);
+    display: flex;
+    font-size: larger;
+    
+
+}
+#logo{
+    height:30%;
+     width:30%;
+     margin-top: 10%;
+}
+#centre{
+    display: flex;
+    gap:40%;
+    margin-top: 2%;
+    font-size: larger;
+    margin-left: 20%;
+    justify-content: space-evenly;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#button{
+    background-color: rgb(148, 124, 116);
+    height: 40px;
+    width: 10%;
+}
+#taskInput{
+width: 20%;
+height: 40px;
+text-align: center;
+}
+
+#inputTask{
+    width: 20%;
+height: 40px;
+text-align: center;
+}
+#hold{
+    text-align: center;
+    background-color: darkkhaki;
+    height: 2800px;
+    
+   
+    
+    
+    
+}
+
+#todo_{
+    height: 40px;
+    width: 10%;
+}
+@media screen and (max-width:650px){
+    #navbar{
+        background-color: rgb(148, 124, 116);
+        flex-wrap: wrap;
+        
+        
+    }
+    #logo{
+        height:20%;
+         width:10%;
+         
+    }
+    #centre{
+         /* flex-wrap: wrap; */
+    
+        font-size: small; 
+        display: grid;
+        gap: 0px
+    
+        
+       
+        
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    #goalsetting{
+        font-size: small;
+        background-color: darkkhaki;
+        height: 1200px;
+        
+        
+       
+    }
+    #button{
+        background-color: rgb(148, 124, 116);
+        height: 50px;
+        width: 20%;
+    }
+    
+    #longtermgoal{
+        margin-left: 40%;
+    }
+    #taskInput{
+    width: 20%;
+    height: 40px;
+    text-align: center;
+    }
+    #shorttermgoal{
+        margin-left: 40%;
+    }
+    #inputTask{
+        width: 20%;
+    height: 40px;
+    text-align: center;
+    }
+    #hold{
+        text-align: center;
+        
+    }
+    
+    #todo_{
+        height: 40px;
+        width: 40%;
+    }
+    .todo_list{
+font-size: small;
+    }
+}
+
+
+
+

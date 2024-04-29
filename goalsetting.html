@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="goalsetting.css">
+</head>
+<body>
+    <div id="navbar">
+        <div>
+         <img src="images/image (2).png" alt="" id="logo">
+        </div>
+        <div id="centre">
+         <a href="home.html">Home</a>
+         <a href="achievement.html">Achievement</a>
+         <a href="todolist.html">Todolist</a>
+         <a href="goalsetting.html">Goalsetting</a>
+         <a href="mentorsprof.html">MentorsProfile</a>
+         <a href="login.html">Login</a>
+        </div>
+    </div>
+
+    <div id="hold">
+        <h1 class="goalsh1">Goals</h1>
+        <div class="longAndShortermgoals">
+   <div class="todo_list_container">
+      <div class="todo_list">
+          <h2>Long Term Goals </h2>
+          <div class="todo_list_add_row">
+              <input type="text" id="todo_" placeholder="Add your goal....">
+              <button id="button" onclick="addTask()">Add</button>
+          </div>
+          <ul id="task_container">
+          </ul>
+      </div>
+  </div>
+  <div class="todo_list_container">
+      <div class="todo_list">
+          <h2>Short Term Goals </h2>
+          <div class="todo_list_add_row">
+              <input type="text" id="todo_" placeholder="Add your goal....">
+              <button id="button" onclick="addTask()">Add</button>
+          </div>
+          <ul id="task_container">
+          </ul>
+      </div>
+  </div>
+  </div>
+ 
+  <script src="goals.js"></script>
+    </div>
+
+    
+</body>
+</html>
