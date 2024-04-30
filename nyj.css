@@ -1,24 +1,33 @@
 #nyj{
-   display: flex;
-   gap: 15%;
+   
    background-color: darkkhaki;
-   height: 1400px;
+  
 }
 #bornacrime{
    font-size: xx-large;
+  text-align: center;
+   
 }
+
 #image{
-   height:900px;
-   margin-top: 20%;
+   height: 500px;
+   margin-left: 40%;
+
 }
+
 @media screen and (max-width:650px){
    #nyj{
       
       background-color: darkkhaki;
-      height: 1200px;
+      height: 1700px;
    }
    #bornacrime{
       font-size: small;
+   }
+   #image{
+      height: 100px;
+      width: 100px;
+   
    }
 
 }
